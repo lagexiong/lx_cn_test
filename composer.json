@@ -14,9 +14,6 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {
-            "ci-adapter\\":"src/ci-adapter",
-            "contracts\\":"src/contracts"
-        }
+        "psr-4": {}
     }
 }
