@@ -1,0 +1,22 @@
+{
+    "name": "lx.com/x7sy-test1",
+    "description": "AUthor [刘雄<810145892@qq.com>, n to skip]",
+    "type": "l",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "刘雄",
+            "email": "liuxiong@shangminet.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ci-adapter\\":"src/ci-adapter",
+            "contracts\\":"src/contracts"
+        }
+    }
+}
