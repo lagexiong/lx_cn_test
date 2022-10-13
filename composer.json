@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.6.0"
     },
-    "license": "Apache",
+    "license": "MIT",
     "authors": [
         {
             "name": "刘雄",
@@ -14,9 +14,6 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {
-            "ci-adapter\\":"src/ci-adapter",
-            "contracts\\":"src/contracts"
-        }
+        "psr-4": {}
     }
 }
